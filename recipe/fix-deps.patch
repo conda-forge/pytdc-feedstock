@@ -10,7 +10,7 @@ index 8004b31a..770f02de 100644
 -datasets<2.20.0
 -evaluate==0.4.2
 +datasets>=2.20.0
-+evaluate>=0.4.2
++evaluate>=0.4.1
  fuzzywuzzy>=0.18.0,<1.0
  huggingface_hub>=0.20.3,<1.0
  numpy>=1.26.4,<2.0.0
