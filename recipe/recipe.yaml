@@ -1,6 +1,6 @@
 context:
   name: pytdc
-  version: 1.1.8
+  version: 1.1.11
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pytdc-${{ version }}.tar.gz
-  sha256: 2aeb1ad0bbbd44378dcd38796c476b8f5136a5879e132666dd96465b100f80a9
+  sha256: 279b4cfd0c556e62781bbf099d0eb6c530de04afae6d4953a0041105c723429b
 
 build:
   number: 0
