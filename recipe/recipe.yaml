@@ -1,6 +1,6 @@
 context:
   name: pytdc
-  version: "1.1.12"
+  version: "1.1.13"
   python_min: '3.10'
 
 package:
@@ -8,8 +8,8 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pytdc-${{ version }}.tar.gz
-  sha256: 47788329b79737ec2e4e1838fd0b0df0aef0f0b7607a3a562387eb9ce8f97c8f
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/PyTDC-${{ version }}.tar.gz
+  sha256: 3fb62490c06d4a9f0f38e1425e01b857d10f0dfadc18cbee69062d4310ed2f09
 
 build:
   number: 0
